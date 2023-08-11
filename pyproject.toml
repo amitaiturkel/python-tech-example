@@ -10,6 +10,10 @@ packages = [{include = "poetry_demo"}]
 python = "^3.11"
 
 
+[tool.poetry.group.dev.dependencies]
+tox = "^4.7.0"
+pytest-cov = "^4.1.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
